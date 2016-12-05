@@ -1,0 +1,18 @@
+package: .
+import:
+- package: github.com/denisenkom/go-mssqldb
+- package: github.com/go-sql-driver/mysql
+  version: ~1.3.0
+- package: github.com/lib/pq
+- package: github.com/mattn/go-sqlite3
+  version: ~1.2.0
+- package: github.com/mitchellh/cli
+- package: github.com/olekukonko/tablewriter
+- package: github.com/rubenv/sql-migrate
+  subpackages:
+  - sqlparse
+- package: gopkg.in/gorp.v1
+  version: ~2.0.0
+- package: gopkg.in/yaml.v1
+testImport:
+- package: gopkg.in/check.v1

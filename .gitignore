@@ -1,5 +1,5 @@
 .*.swp
 *.test
-
+vendor/
 /sql-migrate/test.db
 /test.db
