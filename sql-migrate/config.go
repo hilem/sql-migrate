@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/rubenv/sql-migrate"
+	"github.com/hilem/sql-migrate"
 	"gopkg.in/gorp.v1"
 	"gopkg.in/yaml.v1"
 

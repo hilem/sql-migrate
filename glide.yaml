@@ -8,7 +8,7 @@ import:
   version: ~1.2.0
 - package: github.com/mitchellh/cli
 - package: github.com/olekukonko/tablewriter
-- package: github.com/rubenv/sql-migrate
+- package: github.com/hilem/sql-migrate
   subpackages:
   - sqlparse
 - package: gopkg.in/gorp.v1
